@@ -5,6 +5,8 @@
     <classes>
       <class name="testcase.TestRunner">
         <methods>
+          <include name="Accesssignout"/>
+          <include name="AccessTreeTopics"/>
           <include name="LogIn"/>
           <include name="launch"/>
         </methods>
