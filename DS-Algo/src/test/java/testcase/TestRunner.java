@@ -2,6 +2,9 @@ package testcase;
 
 import java.io.IOException;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -23,7 +26,7 @@ public class TestRunner extends BaseTest{
     Tree Tr= new Tree();
 	
 	Graph Gr= new Graph();
-@BeforeTest
+@BeforeMethod
 	public void launch() throws IOException {
 		
 		setup();
@@ -63,7 +66,11 @@ public void AccessGraph1() throws IOException  {
 	
 	}
 
-
+@AfterMethod
+public void Accesssignout() throws IOException  {
+	driver.quit();
 	
+	
+	}	
 
 }

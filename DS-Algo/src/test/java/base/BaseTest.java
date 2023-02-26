@@ -57,7 +57,7 @@ public class BaseTest {
 	public static void takeScreenshot(String Filename) throws IOException {
 		
 		File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-	    FileUtils.copyFile(file, new File("C:\\Users\\varsh\\eclipse-workspace\\Framework\\DS-Algo\\src\\test\\resources\\Screenshots" +Filename+".jpg"));
+	    FileUtils.copyFile(file, new File("C:\\Users\\varsh\\git\\DsAlgo\\DS-Algo\\src\\test\\resources\\Screenshots" +Filename+".jpg"));
 		
 		
 		

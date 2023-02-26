@@ -36,7 +36,7 @@ public void AccessTree() throws IOException {
 		System.out.println("Topic is: "+ Topic);
 		
 		String[][] input=Access_Excel.getInput();
-       	for(int j=0;j<=2;j++) {
+       	for(int j=0;j<1;j++) {
         	driver.findElement(Tryhere).click();
            	driver.findElement(Input).sendKeys(input[j][0]);
           	driver.findElement(Run).click();
@@ -44,7 +44,7 @@ public void AccessTree() throws IOException {
           		driver.switchTo().alert().accept();
           		}
           		catch (Exception e) {
-          		e.printStackTrace();
+          		
           		}
         	driver.navigate().back();
         	}

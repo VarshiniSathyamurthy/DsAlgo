@@ -22,7 +22,7 @@ public class Access_Excel extends BaseTest {
 
 	public static String[][] getData() throws IOException  {
 		
-		File f= new File("C:\\Users\\varsh\\eclipse-workspace\\Framework\\DS-Algo\\src\\test\\resources\\testdata\\dsalgoTestData.xlsx");
+		File f= new File("C:\\Users\\varsh\\git\\DsAlgo\\DS-Algo\\src\\test\\resources\\testdata\\dsalgoTestData.xlsx");
 		FileInputStream fis= new FileInputStream(f);
 		Workbook wb= WorkbookFactory.create(fis);
 		Sheet sheetName= wb.getSheet("SignIn");

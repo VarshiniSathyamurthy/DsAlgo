@@ -1,20 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-25T15:46:10 EST" name="Default suite" finished-at="2023-02-25T15:46:15 EST" duration-ms="5539">
+  <suite started-at="2023-02-25T20:02:49 EST" name="Default suite" finished-at="2023-02-25T20:03:17 EST" duration-ms="27631">
     <groups>
     </groups>
-    <test started-at="2023-02-25T15:46:10 EST" name="Default test" finished-at="2023-02-25T15:46:15 EST" duration-ms="5539">
+    <test started-at="2023-02-25T20:02:49 EST" name="Default test" finished-at="2023-02-25T20:03:17 EST" duration-ms="27631">
       <class name="testcase.TestRunner">
-        <test-method is-config="true" signature="launch()[pri:0, instance:testcase.TestRunner@cdc3aae]" started-at="2023-02-25T15:46:10 EST" name="launch" finished-at="2023-02-25T15:46:13 EST" duration-ms="3220" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:testcase.TestRunner@78aea4b9]" started-at="2023-02-25T20:02:49 EST" name="launch" finished-at="2023-02-25T20:02:52 EST" duration-ms="2489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="LogIn()[pri:0, instance:testcase.TestRunner@cdc3aae]" started-at="2023-02-25T15:46:13 EST" name="LogIn" finished-at="2023-02-25T15:46:15 EST" duration-ms="2213" status="PASS">
+        <test-method signature="AccessGraph1()[pri:0, instance:testcase.TestRunner@78aea4b9]" started-at="2023-02-25T20:02:52 EST" name="AccessGraph1" finished-at="2023-02-25T20:02:55 EST" duration-ms="3006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccessGraph1 -->
+        <test-method is-config="true" signature="Accesssignout()[pri:0, instance:testcase.TestRunner@78aea4b9]" started-at="2023-02-25T20:02:55 EST" name="Accesssignout" finished-at="2023-02-25T20:02:55 EST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Accesssignout -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:testcase.TestRunner@78aea4b9]" started-at="2023-02-25T20:02:55 EST" name="launch" finished-at="2023-02-25T20:02:57 EST" duration-ms="1925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="AccessTreeTopics()[pri:0, instance:testcase.TestRunner@78aea4b9]" started-at="2023-02-25T20:02:57 EST" name="AccessTreeTopics" finished-at="2023-02-25T20:03:10 EST" duration-ms="13061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccessTreeTopics -->
+        <test-method is-config="true" signature="Accesssignout()[pri:0, instance:testcase.TestRunner@78aea4b9]" started-at="2023-02-25T20:03:10 EST" name="Accesssignout" finished-at="2023-02-25T20:03:10 EST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Accesssignout -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:testcase.TestRunner@78aea4b9]" started-at="2023-02-25T20:03:10 EST" name="launch" finished-at="2023-02-25T20:03:12 EST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="LogIn()[pri:0, instance:testcase.TestRunner@78aea4b9]" started-at="2023-02-25T20:03:12 EST" name="LogIn" finished-at="2023-02-25T20:03:14 EST" duration-ms="1591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogIn -->
+        <test-method is-config="true" signature="Accesssignout()[pri:0, instance:testcase.TestRunner@78aea4b9]" started-at="2023-02-25T20:03:14 EST" name="Accesssignout" finished-at="2023-02-25T20:03:14 EST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Accesssignout -->
+        <test-method is-config="true" signature="launch()[pri:0, instance:testcase.TestRunner@78aea4b9]" started-at="2023-02-25T20:03:14 EST" name="launch" finished-at="2023-02-25T20:03:17 EST" duration-ms="2364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="homepage()[pri:0, instance:testcase.TestRunner@78aea4b9]" started-at="2023-02-25T20:03:17 EST" name="homepage" finished-at="2023-02-25T20:03:17 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="Accesssignout()[pri:0, instance:testcase.TestRunner@78aea4b9]" started-at="2023-02-25T20:03:17 EST" name="Accesssignout" finished-at="2023-02-25T20:03:17 EST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Accesssignout -->
       </class> <!-- testcase.TestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
